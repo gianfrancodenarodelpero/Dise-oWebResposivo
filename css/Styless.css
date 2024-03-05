@@ -11,10 +11,30 @@
     */
     padding: 20px;
   }
+  hr {
+    
+    background-color: brown;
+    border-color: brown;
+    border-width: 1px;
+    height: 2px;
+    
+  } 
+  .bottom-line{
+      margin-top: 25px;
+  }
   body {
-    font-family: sans-serif;
+   
     background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 40px;
+    size: 30px;
+  }
+   h2 {
+    font-size:30px;
+    size: 30px;
   }
   .established {
     font-style: italic;
@@ -24,10 +44,14 @@
     font-family: Impact ,serif;
     text-align: center;
   }
-  p {
-    text-align: center;
-    
+ 
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
   }
+
   .flavor,.dessert{
     text-align : left
     width: 75px%;
@@ -38,4 +62,8 @@
   }
   .item p{
     display: inline-block;
+  }
+
+  .FOTTER{
+    <p>" "</p> 
   }

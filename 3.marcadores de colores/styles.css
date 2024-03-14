@@ -1,23 +1,30 @@
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-marker{ /*se creo el selector marker*/
-    
-    height: 25px;
-    width: 200px;
-   /* margin-top: auto;
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+/* margin-top: auto;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
-    *//*EL MARGIN ES LO MISMO QUE TODO LO COMENTADO*/ 
-    margin: 10 auto;
+    */ /*EL MARGIN ES LO MISMO QUE TODO LO COMENTADO*/
+
+.red {
+  background: linear-gradient(90deg);
 }
-.one{
-    background-color: red;
+.green {
+  background-color: #007f00;
 }
-.two{
-    background-color: green;
-}
-.three{
-    background-color: blue;
+
+.blue {
+  background-color: hsl(240, 100%, 50%);
 }
